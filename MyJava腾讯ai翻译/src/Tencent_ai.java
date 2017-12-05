@@ -34,7 +34,7 @@ public class Tencent_ai
 		String Temporary_Web_site2;
 		String[] Partitioned_array;
 		String Temporary_="";
-		String Temporary_String = "";
+		StringBuilder Temporary_String = new StringBuilder();
 		
 		//第一步替换基本内容
 		Partitioned_array= Temporary_Web_site.split("&");
@@ -58,13 +58,14 @@ public class Tencent_ai
 			}
 		}
 		for (int i = 0; i < Partitioned_array.length; i++) {
+			
 			if(Partitioned_array.length == i+1){
-				Temporary_String += Partitioned_array[i];
+				Temporary_String.append(Partitioned_array[i]);
 			}else{
-				Temporary_String += Partitioned_array[i]+"&";
+				Temporary_String.append( Partitioned_array[i]).append( "&");
 			}
 		}
-		Temporary_Web_site=Temporary_String;
+		Temporary_Web_site=Temporary_String.toString();
 		Temporary_Web_site2 = Temporary_Web_site.replace("&"+Temporary_,"");
 		Partitioned_array = Temporary_Web_site2.split("&");
 		for (int i = 0; i < Partitioned_array.length-1; i++) {
@@ -78,15 +79,15 @@ public class Tencent_ai
 				}
 			}
 		}
-		Temporary_String="";
+		Temporary_String=new StringBuilder();
 		for (int i = 0; i < Partitioned_array.length; i++) {
 			if(Partitioned_array.length == i+1){
-				Temporary_String += Partitioned_array[i]+"&app_key="+app_key;
+				Temporary_String.append( Partitioned_array[i]).append("&app_key=").append(app_key);
 			}else{
-				Temporary_String += Partitioned_array[i]+"&";
+				Temporary_String.append( Partitioned_array[i]).append( "&");
 			}
 		}
-		Temporary_Web_site2 = Temporary_String;
+		Temporary_Web_site2 = Temporary_String.toString();
 		Temporary_Web_site = Temporary_Web_site.replace(Temporary_,"sign="+stringMD5(Temporary_Web_site2));
 		return Temporary_Web_site; 
 	}
