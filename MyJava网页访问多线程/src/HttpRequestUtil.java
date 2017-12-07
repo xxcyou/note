@@ -272,16 +272,5 @@ public class HttpRequestUtil {
 		return null;
 	}
 	//测试函数
-	public static void main(String args[]) throws Exception {
-		Map<String, String> params = new HashMap<String, String>();
-		params.put("name", "xiazdong");
-		params.put("age", "10");
-		HttpURLConnection conn = (HttpURLConnection) HttpRequestUtil
-			.sendGetRequest(
-			"http://192.168.0.103:8080/Server/PrintServlet",
-			params, null);
-		int code = conn.getResponseCode();
-		InputStream in = conn.getInputStream();
-		byte[]data = read2Byte(in);
-	}
+	
 }
