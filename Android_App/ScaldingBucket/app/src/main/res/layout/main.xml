@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/rlLayoutBig"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#00000000"
+	android:paddingLeft="2dp"
+	android:paddingRight="2dp">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:id="@+id/mainLinearLayout1">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:text="型号:"
+			android:id="@+id/mainTextView1"/>
+
+		<EditText
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:ems="10"
+			android:id="@+id/mainEditText1"
+			android:hint="列如:2022"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:layout_below="@+id/mainLinearLayout1"
+		android:orientation="horizontal"
+		android:id="@+id/mainLinearLayout2">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:text="大小:"
+			android:id="@+id/mainTextView2"/>
+
+		<Spinner
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:id="@+id/mainSpinner1"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:layout_below="@+id/mainLinearLayout2"
+		android:orientation="horizontal"
+		android:id="@+id/mainLinearLayout3">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:text="数量:"/>
+
+		<EditText
+			android:layout_height="wrap_content"
+			android:inputType="number"
+			android:layout_width="match_parent"
+			android:ems="10"
+			android:hint="列如:100"
+			android:id="@+id/mainEditText3"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_below="@+id/mainLinearLayout3"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:id="@+id/mainLinearLayout4">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:text="颜色:"/>
+
+		<EditText
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:ems="10"
+			android:hint="列如:轻色"
+			android:id="@+id/mainEditText2"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:layout_below="@+id/mainLinearLayout4"
+		android:orientation="horizontal"
+		android:id="@+id/mainLinearLayout5">
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="保存记录"
+			android:id="@+id/mainButton1"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="查询记录"
+			android:id="@+id/mainButton2"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:layout_below="@+id/mainLinearLayout5"
+		android:orientation="horizontal">
+
+		<ListView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:id="@+id/mainListView1"/>
+
+	</LinearLayout>
+
+	<View
+		android:layout_height="1px"
+		android:layout_width="match_parent"
+		android:background="#979EA2"
+		android:layout_below="@+id/mainLinearLayout5"/>
+
+</RelativeLayout>
+

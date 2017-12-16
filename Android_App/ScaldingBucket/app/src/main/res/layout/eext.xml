@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_toLeftOf="@+id/eextImageButton1"
+		android:id="@+id/TextView"
+		android:gravity="center"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="wrap_content"
+		android:layout_below="@+id/TextView"
+		android:text="大小:"
+		android:id="@+id/eextTextView1"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="wrap_content"
+		android:layout_below="@+id/TextView"
+		android:layout_toRightOf="@+id/eextTextView1"
+		android:text="数量:"
+		android:id="@+id/eextTextView2"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="wrap_content"
+		android:layout_below="@+id/TextView"
+		android:layout_toRightOf="@+id/eextTextView2"
+		android:text="颜色:"
+		android:id="@+id/eextTextView3"/>
+
+	<View
+		android:layout_height="1px"
+		android:layout_width="match_parent"
+		android:background="#979EA2"
+		android:layout_below="@+id/eextTextView1"/>
+
+	<ImageButton
+		style="?android:attr/buttonBarButtonStyle"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_alignParentRight="true"
+		android:id="@+id/eextImageButton1"
+		android:src="@android:drawable/ic_menu_delete"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:layout_below="@+id/TextView"
+		android:layout_toRightOf="@+id/eextTextView3"
+		android:layout_toLeftOf="@+id/eextImageButton1"
+		android:id="@+id/eextTextView4"/>
+
+</RelativeLayout>
+
