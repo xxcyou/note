@@ -22,10 +22,10 @@ public class MainActivity extends Activity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 		final show ts = new show(this);
-        final EditText edittext = (EditText)findViewById(R.id.mainEditText1);
+        final EditText edittext = findViewById(R.id.mainEditText1);
         final Context ppp=this;
-        Button button = (Button)findViewById(R.id.mainButton);
-        Button button1 = (Button)findViewById(R.id.mainButton1);
+        Button button = findViewById(R.id.mainButton);
+        Button button1 = findViewById(R.id.mainButton1);
         
         button1.setOnClickListener(new OnClickListener(){
 
@@ -37,7 +37,7 @@ public class MainActivity extends Activity
                         String[] pp= tt.split("\\.");
                         ijk+=Integer.parseInt(pp[1],10);
                     }
-                    TextView textView = (TextView)findViewById(R.id.mainTextView1);
+                    TextView textView = findViewById(R.id.mainTextView1);
                     textView.setText("数量:"+ijk);
                     // TODO: Implement this method
                 }
@@ -79,7 +79,7 @@ public class MainActivity extends Activity
                     }
                     ListAdapter adapter = new MyAdapter(ppp,sju);
 
-                    ListView listView = (ListView) findViewById(R.id.mainListView1);
+                    ListView listView = findViewById(R.id.mainListView1);
                     listView.setAdapter(adapter);
                     // TODO: Implement this method
                 }
@@ -105,10 +105,10 @@ class MyAdapter extends ArrayAdapter<String>
         String txt= getItem(position);
         String[] text=txt.split("\\.");
 
-        TextView textView = (TextView) view.findViewById(R.id.TextView);
-        TextView textView1 = (TextView) view.findViewById(R.id.eextTextView1);
-        TextView textView2 = (TextView) view.findViewById(R.id.eextTextView2);
-        TextView textView3 = (TextView) view.findViewById(R.id.eextTextView3);
+        TextView textView = view.findViewById(R.id.TextView);
+        TextView textView1 = view.findViewById(R.id.eextTextView1);
+        TextView textView2 = view.findViewById(R.id.eextTextView2);
+        TextView textView3 = view.findViewById(R.id.eextTextView3);
         textView.setText(text[0]);
         textView1.setText("数量:"+text[1]);
         textView2.setText("大小类型:"+text[2]);

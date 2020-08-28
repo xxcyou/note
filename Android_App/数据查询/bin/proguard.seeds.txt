@@ -1,0 +1,24 @@
+com.mp.finger.MainActivity
+com.mp.finger.MainActivity: MainActivity()
+com.mp.finger.R$drawable: int bitbug_favicon
+com.mp.finger.R$drawable: int ic_launcher
+com.mp.finger.R$id: int TextView
+com.mp.finger.R$id: int eextImageButton1
+com.mp.finger.R$id: int eextTextView1
+com.mp.finger.R$id: int eextTextView2
+com.mp.finger.R$id: int eextTextView3
+com.mp.finger.R$id: int mainButton
+com.mp.finger.R$id: int mainButton1
+com.mp.finger.R$id: int mainEditText1
+com.mp.finger.R$id: int mainLinearLayout1
+com.mp.finger.R$id: int mainLinearLayout2
+com.mp.finger.R$id: int mainListView1
+com.mp.finger.R$id: int mainRelativeLayout2
+com.mp.finger.R$id: int mainTextView1
+com.mp.finger.R$id: int mainView1
+com.mp.finger.R$id: int mainView2
+com.mp.finger.R$layout: int eext
+com.mp.finger.R$layout: int main
+com.mp.finger.R$string: int app_name
+com.mp.finger.R$string: int hello
+com.mp.finger.R$style: int AppTheme

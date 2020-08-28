@@ -1,0 +1,46 @@
+adrt.ADRTLogCatReader -> a.a:
+    android.content.Context context -> a
+    void <init>() -> <init>
+    void onContext(android.content.Context,java.lang.String) -> a
+    void run() -> run
+adrt.ADRTSender -> a.b:
+    android.content.Context context -> a
+    java.lang.String debuggerPackageName -> b
+    void onContext(android.content.Context,java.lang.String) -> a
+    void sendLogcatLines(java.lang.String[]) -> a
+com.github.megatronking.stringfog.xor.StringFogImpl -> com.a.a.a.a.a:
+    java.lang.String decrypt(java.lang.String) -> a
+    java.lang.String decrypt(java.lang.String,java.lang.String) -> a
+    byte[] xor(byte[],java.lang.String) -> a
+    void <init>() -> <init>
+com.mp.finger.MainActivity -> com.mp.finger.MainActivity:
+    java.lang.String str2 -> a
+    java.lang.String[] sju -> b
+    java.util.List list -> c
+    java.lang.String access$L1000000(com.mp.finger.MainActivity) -> a
+    void access$S1000000(com.mp.finger.MainActivity,java.lang.String) -> a
+    java.lang.String[] access$L1000001(com.mp.finger.MainActivity) -> b
+    void access$S1000001(com.mp.finger.MainActivity,java.lang.String[]) -> a
+    java.util.List access$L1000002(com.mp.finger.MainActivity) -> c
+    void access$S1000002(com.mp.finger.MainActivity,java.util.List) -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void <init>() -> <init>
+com.mp.finger.MainActivity$100000000 -> com.mp.finger.a:
+    com.mp.finger.MainActivity this$0 -> a
+    void <init>(com.mp.finger.MainActivity) -> <init>
+    void onClick(android.view.View) -> onClick
+com.mp.finger.MainActivity$100000001 -> com.mp.finger.b:
+    com.mp.finger.MainActivity this$0 -> a
+    com.mp.finger.show val$ts -> b
+    android.widget.EditText val$edittext -> c
+    android.content.Context val$ppp -> d
+    void <init>(com.mp.finger.MainActivity,com.mp.finger.show,android.widget.EditText,android.content.Context) -> <init>
+    void onClick(android.view.View) -> onClick
+com.mp.finger.MyAdapter -> com.mp.finger.c:
+    android.content.Context vir -> a
+    void <init>(android.content.Context,java.lang.String[]) -> <init>
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+com.mp.finger.show -> com.mp.finger.d:
+    android.content.Context sc -> a
+    void <init>(android.content.Context) -> <init>
+    void textts(java.lang.String) -> a

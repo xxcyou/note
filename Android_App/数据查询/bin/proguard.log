@@ -1,0 +1,144 @@
+ProGuard, version 6.0.3
+ProGuard is released under the GNU General Public License. You therefore
+must ensure that programs that link to it (a, com.a4455jkjh.d, ...)
+carry the GNU General Public License as well. Alternatively, you can
+apply for an exception with the author of ProGuard.
+Reading input...
+Reading program directory [/storage/emulated/0/AppProjects/note/Android_App/数据查询/bin/classesrelease_proguard]
+Reading library jar [/data/data/com.aide.ui/no_backup/.aide/android.jar]
+Initializing...
+Note: the configuration refers to the unknown class 'com.google.vending.licensing.ILicensingService'
+Note: the configuration refers to the unknown class 'com.android.vending.licensing.ILicensingService'
+Note: the configuration refers to the unknown class 'android.support.annotation.Keep'
+Note: the configuration refers to the unknown class 'android.support.annotation.Keep'
+Note: the configuration refers to the unknown class 'android.support.annotation.Keep'
+Note: the configuration refers to the unknown class 'android.support.annotation.Keep'
+Note: the configuration refers to the unknown class 'android.support.annotation.Keep'
+Note: the configuration refers to the unknown class 'com.android.vending.licensing.ILicensingService'
+Note: there were 8 references to unknown classes.
+      You should check your configuration for typos.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#unknownclass)
+Ignoring unused library classes...
+  Original number of library classes: 5478
+  Final number of library classes:    328
+Printing kept classes, fields, and methods...
+Shrinking...
+Printing usage to [/storage/emulated/0/AppProjects/note/Android_App/数据查询/bin/proguard.usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 18
+  Final number of program classes:    8
+Optimizing (pass 1/5)...
+  Number of finalized classes:                   6
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0   (disabled)
+  Number of horizontally merged classes:         0   (disabled)
+  Number of merged wrapper classes:              0   (disabled)
+  Number of removed write-only fields:           0   (disabled)
+  Number of privatized fields:                   0   (disabled)
+  Number of inlined constant fields:             0   (disabled)
+  Number of privatized methods:                  1
+  Number of staticized methods:                  2
+  Number of finalized methods:                   6
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        0
+  Number of removed method parameters:           0
+  Number of inlined constant parameters:         0
+  Number of inlined constant return values:      0
+  Number of inlined short method calls:          0
+  Number of inlined unique method calls:         0
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     14
+  Number of arithmetic peephole optimizations:   0   (disabled)
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       2
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       0
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             0
+  Number of removed instructions:                14
+  Number of removed local variables:             7
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     6
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes: 8
+  Final number of program classes:    8
+Optimizing (pass 2/5)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0   (disabled)
+  Number of horizontally merged classes:         0   (disabled)
+  Number of merged wrapper classes:              0   (disabled)
+  Number of removed write-only fields:           0   (disabled)
+  Number of privatized fields:                   0   (disabled)
+  Number of inlined constant fields:             0   (disabled)
+  Number of privatized methods:                  0
+  Number of staticized methods:                  0
+  Number of finalized methods:                   0
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        0
+  Number of removed method parameters:           0
+  Number of inlined constant parameters:         0
+  Number of inlined constant return values:      0
+  Number of inlined short method calls:          0
+  Number of inlined unique method calls:         0
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     0
+  Number of arithmetic peephole optimizations:   0   (disabled)
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       0
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       0
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             0
+  Number of removed instructions:                24
+  Number of removed local variables:             0
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     0
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes: 8
+  Final number of program classes:    8
+Optimizing (pass 3/5)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0   (disabled)
+  Number of horizontally merged classes:         0   (disabled)
+  Number of merged wrapper classes:              0   (disabled)
+  Number of removed write-only fields:           0   (disabled)
+  Number of privatized fields:                   0   (disabled)
+  Number of inlined constant fields:             0   (disabled)
+  Number of privatized methods:                  0
+  Number of staticized methods:                  0
+  Number of finalized methods:                   0
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        0
+  Number of removed method parameters:           0
+  Number of inlined constant parameters:         0
+  Number of inlined constant return values:      0
+  Number of inlined short method calls:          0
+  Number of inlined unique method calls:         0
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     0
+  Number of arithmetic peephole optimizations:   0   (disabled)
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       0
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       0
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             0
+  Number of removed instructions:                0
+  Number of removed local variables:             0
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     0
+Obfuscating...
+Printing mapping to [/storage/emulated/0/AppProjects/note/Android_App/数据查询/bin/proguard.mapping.txt]...
+Writing output...
+Preparing output directory [/storage/emulated/0/AppProjects/note/Android_App/数据查询/bin/proguard]
+  Copying resources from program directory [/storage/emulated/0/AppProjects/note/Android_App/数据查询/bin/classesrelease_proguard]

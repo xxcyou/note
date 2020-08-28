@@ -1,0 +1,31 @@
+res path mapping:
+    res/drawable-hdpi-v4 -> r/a
+    res/drawable-mdpi-v4 -> r/b
+    res/drawable-xhdpi-v4 -> r/c
+    res/drawable-xxhdpi-v4 -> r/d
+    res/layout -> r/e
+
+
+res id mapping:
+    com.mp.finger.R.drawable.bitbug_favicon -> com.mp.finger.R.drawable.a
+    com.mp.finger.R.drawable.ic_launcher -> com.mp.finger.R.drawable.b
+    com.mp.finger.R.layout.eext -> com.mp.finger.R.layout.a
+    com.mp.finger.R.layout.main -> com.mp.finger.R.layout.b
+    com.mp.finger.R.string.hello -> com.mp.finger.R.string.a
+    com.mp.finger.R.string.app_name -> com.mp.finger.R.string.b
+    com.mp.finger.R.style.AppTheme -> com.mp.finger.R.style.a
+    com.mp.finger.R.id.eextImageButton1 -> com.mp.finger.R.id.a
+    com.mp.finger.R.id.TextView -> com.mp.finger.R.id.b
+    com.mp.finger.R.id.eextTextView1 -> com.mp.finger.R.id.c
+    com.mp.finger.R.id.eextTextView2 -> com.mp.finger.R.id.d
+    com.mp.finger.R.id.eextTextView3 -> com.mp.finger.R.id.e
+    com.mp.finger.R.id.mainRelativeLayout2 -> com.mp.finger.R.id.f
+    com.mp.finger.R.id.mainLinearLayout1 -> com.mp.finger.R.id.g
+    com.mp.finger.R.id.mainEditText1 -> com.mp.finger.R.id.h
+    com.mp.finger.R.id.mainView1 -> com.mp.finger.R.id.i
+    com.mp.finger.R.id.mainLinearLayout2 -> com.mp.finger.R.id.j
+    com.mp.finger.R.id.mainButton -> com.mp.finger.R.id.k
+    com.mp.finger.R.id.mainButton1 -> com.mp.finger.R.id.l
+    com.mp.finger.R.id.mainTextView1 -> com.mp.finger.R.id.m
+    com.mp.finger.R.id.mainView2 -> com.mp.finger.R.id.n
+    com.mp.finger.R.id.mainListView1 -> com.mp.finger.R.id.o
